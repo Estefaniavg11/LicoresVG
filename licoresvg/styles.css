@@ -1,0 +1,200 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4; /* Color de fondo general del cuerpo */
+}
+
+header {
+    background: #151f42; /* Azul oscuro */
+    color: #fff;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 70px; /* Ajusta esto según el tamaño de tu logo */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px; /* Aumentando el espacio entre los elementos */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px; /* Tamaño de letra */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-image: url('hero.jpg'); /* Imagen de fondo del hero section */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    color: #151f42; /* Cambia el color del texto a rojo */
+    font-size: 46px; /* Cambia el tamaño de la letra a 36 pixels */
+    margin-top: -50px; /* Ajusta el margen superior a 30 pixels */
+    
+}
+
+.about-us-content h2 {
+    text-align: center; /* Centra el texto horizontalmente */
+    font-size: 24px; /* Tamaño de la letra de 24 píxeles */
+}
+
+
+.hero-content p {
+    color: #000000; /* Cambia el color del texto a negro */
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.feature {
+    text-align: center;
+    margin: 20px;
+}
+
+.feature img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: -100px; /* Ajusta el margen superior negativo */
+    
+}
+
+.feature h2 {
+    margin-top: 20px;
+}
+
+.feature p {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.feature-img {
+    height: auto;
+    max-height: 550px; /* Define la altura máxima deseada */
+    width: auto;
+    max-width: 100%; /* Ajusta el ancho máximo automáticamente */
+}
+
+
+.about-us-image {
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    height: 480px; /* Ajusta la altura a 300 píxeles */
+}
+
+.about-us-content p {
+    text-align: justify; /* Justifica el texto */
+    font-size: 18px; /* Tamaño de la letra de 18 píxeles */
+
+}
+
+/* Agrega tus estilos CSS aquí */
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.hero-content h1 {
+    animation: fadeIn 2s ease-in-out; /* Aplica la animación de fadeIn al título */
+}
+
+.category {
+    cursor: pointer;
+}
+
+.selected {
+    border: 2px solid blue;
+}
+.category-selector {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Cuatro columnas */
+    gap: 20px; /* Espacio entre las categorías */
+    text-align: center; /* Centrar el contenido de las categorías */
+}
+
+.category {
+    width: 100%; /* Ocupar todo el ancho de la columna */
+}
+
+
+.category {
+    width: 100%; /* Ocupar todo el ancho de la columna */
+}
+.category img {
+    max-width: 350px; /* Establecer el ancho máximo de las imágenes */
+    height: 450px; /* Mantener la proporción de aspecto */
+}
+
+.opaque {
+    opacity: 0.5; /* Opacidad reducida */
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content img {
+    width: 250px; /* Ajusta el tamaño del logo según sea necesario */
+    margin-right: 500px; /* Espacio entre el logo y el título */
+}
+
+.header-content h1 {
+    margin: 0; /* Elimina el margen predeterminado del título */
+}
+.product img {
+    max-width: 150px; /* La imagen se ajustará automáticamente al ancho del contenedor */
+    height: 150px; /* Mantén la relación de aspecto original */
+    display: block; /* Eliminar espacio adicional debajo de la imagen */
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
+}
+
+
+
+
