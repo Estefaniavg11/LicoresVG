@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF- 8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tequila</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Contenedor del carrito de compras -->
+    <div id="cart-container">
+        <h2 id="cart-icon">
+            <img src="img/carrito.png" alt="Carrito de compras">
+            <span id="cart-count">0</span>
+        </h2>
+    </div>
+
+    <header>
+        <div class="header-content"> 
+            <img src="img/logo.png" alt="Logo">
+            <h1>Tequila</h1>
+        </div>
+    </header>
+
+    <section class="product-list">
+        <div class="product" data-id="1" data-name="Tequila 1800 Silver" data-price="190000">
+            <img src="img/tequila_1800_silver.png" alt="Tequila 1800 Silver">
+            <h2>Tequila 1800 Silver - 750 ml</h2>
+            <p>Precio: $190,000</p>
+            <div class="add-to-cart">
+                <select name="quantity" class="quantity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <button class="cart-button">Añadir al Carrito</button>
+            </div>
+        </div>
+        <div class="product" data-id="2" data-name="Tequila Gran Centenario Reposado" data-price="105000">
+            <img src="img/tequila_gran_centenario_reposado.png" alt="Tequila Gran Centenario Reposado">
+            <h2>Tequila Gran Centenario Reposado - 750 ml</h2>
+            <p>Precio: $105,000</p>
+            <div class="add-to-cart">
+                <select name="quantity" class="quantity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <button class="cart-button">Añadir al Carrito</button>
+            </div>
+        </div>
+        <!-- Añadir los demás productos de manera similar -->
+        <div class="product" data-id="3" data-name="Tequila Jose Cuervo Especial Reposado" data-price="82000">
+            <img src="img/tequila_jose_cuervo_especial_reposado.png" alt="Tequila Jose Cuervo Especial Reposado">
+            <h2>Tequila Jose Cuervo Especial Reposado - 750 ml</h2>
+            <p>Precio: $82,000</p>
+            <div class="add-to-cart">
+                <select name="quantity"  class="quantity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <!-- Agrega más opciones según sea necesario -->
+                </select>
+                <button class="cart-button">Añadir al Carrito</button>
+            </div>
+        </div>
+        <div class="product" data-id="4" data-name="Tequila Jose Cuervo Especial Silver" data-price="82000">
+            <img src="img/tequila_jose_cuervo_especial_silver.png" alt="Tequila Jose Cuervo Especial Silver">
+            <h2>Tequila Jose Cuervo Especial Silver - 750 ml</h2>
+            <p>Precio: $82,000</p>
+            <div class="add-to-cart">
+                <select name="quantity"  class="quantity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <!-- Agrega más opciones según sea necesario -->
+                </select>
+                <button class="cart-button">Añadir al Carrito</button>
+            </div>
+        </div>
+        <div class="product" data-id="5" data-name="Tequila Reserva 1800 Añejo" data-price="225000" >
+            <img src="img/tequila_reserva_1800_anejo.png" alt="Tequila Reserva 1800 Añejo">
+            <h2>Tequila Reserva 1800 Añejo - 750 ml</h2>
+            <p>Precio: $225,000</p>
+            <div class="add-to-cart">
+                <select name="quantity"  class="quantity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <!-- Agrega más opciones según sea necesario -->
+                </select>
+                <button class="cart-button">Añadir al Carrito</button>
+            </div>
+        </div>
+        <div class="product" data-id="6" data-name="Tequila Gran Centenario Plata" data-price="100000" >
+            <img src= "img/tequila_Gran_Centenario_Plata.png" alt="Tequila Gran Centenario Plata">
+            <h2>Tequila Gran Centenario Plata - 750 ml</h2>
+            <p>Precio: $100,000</p>
+            <div class="add-to-cart">
+                <select name="quantity" class="quantity" >
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <!-- Agrega más opciones según sea necesario -->
+                </select>
+                <button class="cart-button">Añadir al Carrito</button>
+                </div>
+                
+        
+    </section>
+
+</div>
+<button onclick="location.href='productos.html'" class="back-button">Volver a Productos</button>
+    
+    <footer>
+        <p>&copy; 2024 Tienda de Licores</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
